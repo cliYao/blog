@@ -40,7 +40,7 @@ console.log(person1.name); // yxh
 构造函数通过prototype指向了原型，而原型通过constructor属性指向回构造函数
 即：Person.prototype.constructor === Person
 
-##### .实例与原型的关系？
+##### 5.实例与原型的关系？
 一句话简而言之：实例中没有的属性或是方法会到他的原型中去找，如果还是找不到，就去找原型的
 原型，一直找到最顶层为止（这一条由原型串联起来的链条也就叫做原型链了）
 
